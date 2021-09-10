@@ -1,3 +1,67 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.8rem;
+}
+
+table {
+  margin-top: 2rem;
+}
+
+th {
+  padding: 0.5rem auto;
+  border-bottom: 1px solid #666;
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #666;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  border: 0;
+  border-radius: 5px;
+  background: #ccc;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  background: #fff;
+  color: #333;
+}
+
+input[type=submit] {
+  background: #ccc;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
